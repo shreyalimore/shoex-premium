@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShoeX Premium</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    color: #00aaff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li:hover {
+    color: #00aaff;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    height: 85vh;
+    background: url("https://images.unsplash.com/photo-1600180758890-6b94519a8ba8?auto=format&fit=crop&w=1920&q=80") no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 60px;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #00aaff;
+}
+
+/* IMAGE FIX */
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background: #111; /* fallback */
+}
+
+/* BADGE */
+.badge {
+    position: absolute;
+    background: #00aaff;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* CONTENT */
+.card-content {
+    padding: 20px;
+}
+
+.price {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+/* BUTTON */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #00aaff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h1>ShoeX</h1>
+    <ul>
+        <li>Home</li>
+        <li>Shop</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h2>Step Into Style</h2>
+    </div>
+</section>
+
+<section class="products">
+    <h2>Trending Shoes</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=800&q=80">
+            <div class="card-content">
+                <h3>Nike Air Max</h3>
+                <p class="price">₹7,999</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80">
+            <div class="card-content">
+                <h3>Adidas Ultraboost</h3>
+                <p class="price">₹9,499</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=800&q=80">
+            <div class="card-content">
+                <h3>Puma RS-X</h3>
+                <p class="price">₹6,499</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80">
+            <div class="card-content">
+                <h3>Jordan Retro</h3>
+                <p class="price">₹12,999</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 ShoeX Premium</p>
+</footer>
+
+</body>
+</html>
