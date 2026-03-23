@@ -13,7 +13,7 @@
 
 **ShoeX Premium** is a sleek, responsive e-commerce webpage designed to showcase a curated collection of shoes. Built entirely with **HTML and CSS**, it demonstrates modern frontend design concepts, including **responsive grids, glassmorphism cards, hover animations**, and **dynamic product layouts** — all without JavaScript.
 
-This project is perfect for **frontend beginners**, portfolio projects, or anyone learning **modern CSS styling and responsive design**.
+This project is perfect for **frontend beginners**, portfolio projects, or anyone learning **modern CSS styling and responsive design**
 
 ---
 
