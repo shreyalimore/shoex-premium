@@ -25,7 +25,7 @@ This project is perfect for **frontend beginners**, portfolio projects, or anyon
 - **Modern UI/UX** with black and blue theme and glassmorphism effects  
 - **Sticky navbar** for easy navigation  
 - **Clean footer** for branding and copyright  
-- **Pure HTML & CSS** — no backend or JS required  
+- **Pure HTML & CSS** — no backend or JS required 
 - Hover effects and smooth transitions for interactive feel
 
 ---
